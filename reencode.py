@@ -8,7 +8,7 @@ from pathlib import Path
 
 arguments_parser = argparse.ArgumentParser(description="General file re-encoder to UTF-8")
 arguments_parser.add_argument('--inputdir',required=True, help='This is the directory where your files are')
-arguments_parser.add_argument('--ext',required=False,  nargs='?', default=".*", help='OPTIONAL, Filter files using an especific file extension')
+arguments_parser.add_argument('--ext',required=False,  nargs='?', default=".*", help='OPTIONAL, Filter files using an specific file extension')
 arguments_parser.add_argument('--encoding',required=False, nargs='?', help='OPTIONAL, Add any number of encodings needed, separate them by ",". ')
 arguments_parser.add_argument('--auto', required=False, nargs='?', default=True, help='OPTIONAL, True/False, Force automatic detection of encoding.')
 arguments = arguments_parser.parse_args()
