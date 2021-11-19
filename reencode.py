@@ -56,7 +56,7 @@ for path, dirs, files in os.walk(os.path.abspath(input_directory)):
             finally:
                 counter = counter + 1
         
-        if auto.lower() == 'true' and encoding is None and encoding != "Error"  :
+        if auto == 'True' and encoding is None and encoding != "Error"  :
             lines = open(filepath, 'rb').read()
             result = chardet.detect(lines)
             confidence = result['confidence']
