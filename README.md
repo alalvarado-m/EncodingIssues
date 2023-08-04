@@ -21,4 +21,4 @@ Arguments:
   
   Support
   
-  For any issues or feedback please contact Alejandro Alvarado ( alalvarado@mobilize.net )
+  For any issues or feedback please contact Alejandro Alvarado ( a.alvaradovega@snowflake.com )
